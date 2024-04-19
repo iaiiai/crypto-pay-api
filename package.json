@@ -1,0 +1,23 @@
+{
+  "name": "crypto-pay-api",
+  "version": "0.0.1",
+  "description": "Crypto Pay API library written in TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["/dist"],
+  "scripts": {
+    "build": "tsc --build",
+    "watch": "tsc --watch"
+  },
+  "author": "iaiiai",
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "events": "^3.3.0",
+    "node-fetch": "^3.3.2",
+    "url": "^0.11.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7"
+  }
+}
